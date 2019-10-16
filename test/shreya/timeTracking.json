@@ -10,5 +10,12 @@
   "clickOnLogTime": "//button[contains(text(),'Log Time')]",
   "notesInfo": ["//div[contains(text(),\"","\")]"],
   "selectDate": ["//div[contains(text(),\"","\")]"],
-  "todaysDate": "//div[contains(@class,'today day-cell-selected')]"
+  "todaysDate": "//div[contains(@class,'today day-cell-selected')]",
+  "getMonth": "//span[contains(@class,'month-text')]",
+  "goToPreviousMonth" : "//i[contains(@class,'fa fa-angle-left')]",
+  "numberOfWeeks": "//div[contains(@class,'calendar-content')]//div//div[1]//div[1]",
+  "clickOnDate30": ["//div[contains(@class,'calendar-content')]//div[\"","\"]//div//div[.='30']"],
+  "clickOnDate31": ["//div[contains(@class,'calendar-content')]//div[\"","\"]//div//div[.='31']"],
+  "clickOnDate29" : ["//div[contains(@class,'calendar-content')]//div[\"","\"]//div//div[.='29']"],
+  "clickOnDate28" : ["//div[contains(@class,'calendar-content')]//div[\"","\"]//div//div[.='28']"]
 }

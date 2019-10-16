@@ -9,7 +9,7 @@
   "enterNotes": "//div[@class='col-12 col-lg-4']//textarea[@placeholder='Notes']",
   "clickOnLogTime": "//button[contains(text(),'Log Time')]",
   "notesInfo": ["//div[contains(text(),\"","\")]"],
-  "selectDate": ["//div[contains(text(),\"","\")]"],
+  "selectDate": ["//div[contains(@class,'calendar-content')]//div[.=\"","\"]"],
   "todaysDate": "//div[contains(@class,'today day-cell-selected')]",
   "getMonth": "//span[contains(@class,'month-text')]",
   "goToPreviousMonth" : "//i[contains(@class,'fa fa-angle-left')]",

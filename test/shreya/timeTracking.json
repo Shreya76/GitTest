@@ -1,0 +1,14 @@
+{
+  "enterEmail": "//input[@placeholder='Email Address']",
+  "enterPassword": "//input[@placeholder='Password']",
+  "clickOnLogin": "//input[@name='login']",
+  "clickOnSelectBox": "//div[contains(@class,'col-12 col-lg-4')]//div[2]//div[1]//select[1]",
+  "selectProject" : "//div[@class='col-12 col-lg-4']//div[@class='bg-white floating-box form-content form-page p-4']//div[1]//div[1]//select[1]",
+  "selectTask" : "//div[contains(@class,'col-12 col-lg-4')]//div[2]//div[1]//select[1]",
+  "enterHours": "//div[@class='col-12 col-lg-4']//input[@placeholder='Enter Hours']",
+  "enterNotes": "//div[@class='col-12 col-lg-4']//textarea[@placeholder='Notes']",
+  "clickOnLogTime": "//button[contains(text(),'Log Time')]",
+  "notesInfo": ["//div[contains(text(),\"","\")]"],
+  "selectDate": ["//div[contains(text(),\"","\")]"],
+  "todaysDate": "//div[contains(@class,'today day-cell-selected')]"
+}
